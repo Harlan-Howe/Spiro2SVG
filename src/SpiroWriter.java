@@ -77,7 +77,8 @@ public class SpiroWriter
             fileWriter.write("\t<polyline points=\"");
 
             // list the points that will make up this polyline.... this linePoints() method will be the part you write.
-            fileWriter.write(linePoints());
+            String linePointsString = linePoints();
+            fileWriter.write(linePointsString);
 
             // Finish the polyline....
             fileWriter.write("\" stroke=\"red\" stroke-width=\"1\" fill=\"none\" />\n");
