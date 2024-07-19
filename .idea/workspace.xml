@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8e7ed92-e37c-4806-8cf2-f98231590767" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ColorConversionRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColorConversionRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColorConversionRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColorConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColorConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpiroRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpiroRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpiroWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpiroWriter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +27,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Harlan-Howe"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Harlan-Howe/Spiro2SVG.git",
+    "accountId": "4e211d86-b855-4c45-aee6-22058520e2d2"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2ADa1szSI4c1bbaGSfeSDum1loG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,6 +56,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>

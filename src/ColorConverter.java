@@ -1,6 +1,6 @@
 import java.awt.*;
 // Note: I am providing this class as a convenience function if you wish to make color blends. It was handy for the
-//       student who tried it last year.
+//       student who tried it a few years ago.
 
 /**
  * a class that can be used to convert (r, g, b) in 0-255 ranges to hex (#rrggbb) and back.

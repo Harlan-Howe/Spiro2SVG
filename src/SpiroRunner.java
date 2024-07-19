@@ -1,6 +1,6 @@
 public class SpiroRunner
 {
-    public static void main(String[] args)
+    public  void main()
     {
         SpiroWriter myWriter = new SpiroWriter();
         myWriter.createFile();

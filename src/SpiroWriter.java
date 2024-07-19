@@ -64,10 +64,14 @@ public class SpiroWriter
             BufferedWriter fileWriter = new BufferedWriter(spiralFileWriter);
 
             // Write the Header line to make this an SVG file.
-            fileWriter.write("<svg version=\"1.1\" width=\""+imageWidth+"\" height=\""+imageHeight+"\" xmlns=\"http://www.w3.org/2000/svg\">\n");
+            fileWriter.write(STR."""
+<svg version="1.1" width=\"\{imageWidth}" height=\"\{imageHeight}" xmlns="http://www.w3.org/2000/svg">
+""");
 
             // Prints your name at the top of the file. You might wish to change this to your actual name....
-            fileWriter.write("\t<text x=\""+imageWidth/2+"\" y=\"18\" font-size=\"18\" text-anchor=\"middle\" fill=\"purple\">Your Name</text>\n");
+            fileWriter.write(STR."""
+\t<text x=\"\{imageWidth / 2}" y="18" font-size="18" text-anchor="middle" fill="purple">Your Name</text>
+""");
 
             //-------------
             // Now we're going to make the actual spirograph, using a "polyline" - the polyline will have a format like:
@@ -90,11 +94,13 @@ public class SpiroWriter
             // Save & close the file.
             fileWriter.close();
 
-            System.out.println("File '"+filename+"' has been written.");
+            System.out.println(STR."File '\{filename}' has been written.");
         }
         catch (IOException ioExp)
         {
-            ioExp.printStackTrace();
+            System.out.println("There was a problem saving the file.");
+            System.out.println(ioExp.getMessage());
+            System.exit(1);
         }
 
 
@@ -118,7 +124,7 @@ public class SpiroWriter
         //  This is pretty inefficient - you should use a loop, of course! But you'll essentially want to use the four
         //       "append" lines to draw each dot. I suggest you comment out my code in this section until you are
         //       familiar with how it works (i.e., when you have written some code of your own), then delete my code.
-
+        
         double x1 = 100;
         double y1 = 100;
         double x2 = 200;
