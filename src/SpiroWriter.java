@@ -64,14 +64,10 @@ public class SpiroWriter
             BufferedWriter fileWriter = new BufferedWriter(spiralFileWriter);
 
             // Write the Header line to make this an SVG file.
-            fileWriter.write(STR."""
-<svg version="1.1" width=\"\{imageWidth}" height=\"\{imageHeight}" xmlns="http://www.w3.org/2000/svg">
-""");
+            fileWriter.write("<svg version=\"1.1\" width=\"" + imageWidth + "\" height=\"" + imageHeight + "\" xmlns=\"http://www.w3.org/2000/svg\">\n");
 
             // Prints your name at the top of the file. You might wish to change this to your actual name....
-            fileWriter.write(STR."""
-\t<text x=\"\{imageWidth / 2}" y="18" font-size="18" text-anchor="middle" fill="purple">Your Name</text>
-""");
+            fileWriter.write("\t<text x=\"" + imageWidth / 2 + "\" y=\"18\" font-size=\"18\" text-anchor=\"middle\" fill=\"purple\">Your Name</text>\n");
 
             //-------------
             // Now we're going to make the actual spirograph, using a "polyline" - the polyline will have a format like:
@@ -94,7 +90,7 @@ public class SpiroWriter
             // Save & close the file.
             fileWriter.close();
 
-            System.out.println(STR."File '\{filename}' has been written.");
+            System.out.println("File '" + filename + "' has been written.");
         }
         catch (IOException ioExp)
         {
